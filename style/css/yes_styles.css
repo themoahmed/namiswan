@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #F8C8DC;
+    margin:0px;
 }
 
 /* Position the "No" button absolutely within body */
@@ -27,7 +28,8 @@ body {
     color: white;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 0px;
+    position: absolute;
+    top:-35px;
 }
 
 .text {
@@ -36,7 +38,7 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 0px;
 }
 
@@ -72,4 +74,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
+    margin-right: 83px;
+}
+
+.pic{
+    height:100%;
+}
+
+.container{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }

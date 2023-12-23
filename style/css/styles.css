@@ -3,7 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    max-height:100vh;
     background-color: #F8C8DC;
+    margin:0px;
 }
 
 /* Position the "No" button absolutely within body */
@@ -26,8 +28,8 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: -100px;
+    margin-bottom: 50px;
 }
 
 .buttons {
@@ -35,7 +37,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 20px;
     /* optional: adds some space between the buttons */
 }
@@ -48,6 +50,7 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+   
     cursor: pointer;
     border: none;
     border-radius: 12px;
@@ -62,5 +65,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
+    
+   
+}
+
+.pic{
+    height:300px;
 }
