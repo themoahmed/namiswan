@@ -28,8 +28,9 @@ body {
     color: white;
     text-align: center;
     margin-top: 20px;
-    position: absolute;
-    top:-35px;
+    margin-bottom:-100px;
+    
+    
 }
 
 .text {
